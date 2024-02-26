@@ -20,6 +20,10 @@ nav {
 }
 
 .nav--logo{
+  max-width: 100%;
+}
+
+.nav--logo > img{
   max-width: 100px;
 }
 
@@ -63,6 +67,7 @@ section{
   flex: 0 0 auto;
   flex-direction: column;
   max-width: 15em;
+  position: relative;
 }
 
 .card--img{
@@ -87,4 +92,14 @@ section{
 
 .card--price{
   margin-top: 0px;
+}
+
+.card--badge{
+  position:absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
